@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #fffcfe, #e5b2fc);
+    height: 100vh;
+    color: #333;
+    margin-top: 50px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.container {
+    width: 100%; 
+    max-width: 800px;
+    text-align: center;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    font-size: 16px;                   
+    padding: 12px 20px;               
+    border-radius: 30px;               
+    transition: background-color 0.3s, 
+                transform 0.3s;       
+}
+
+.btn-primary:hover {
+    background-color: #fe94e0;        
+    transform: scale(1.05);           
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold; 
+    background: -webkit-linear-gradient(45deg, #d5b6ef, #d050fb, #ffadfb); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    transform: scale(1.05); 
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    position: relative; 
+    z-index: 1; 
+    transition: background-color 0.3s;
+}
+
+input[type="number"]:focus {
+    background-color: #f3f3f3;  
+    outline: none;  
+}
+
+.results-section {
+    margin-top: 30px;  
+    padding: 10px;     
+    border-radius: 10px;  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background: -webkit-linear-gradient(45deg, #e17ad5, #70c4ff, #f16eeb); 
+    transition: transform 0.3s; 
+}
+
+.results-section h2 {
+    margin-bottom: 20px; 
+}
+footer {
+    margin-bottom: 60px; 
+    background: -webkit-linear-gradient(45deg, #fbc7f5, #70c4ff, #f9e8f9); 
+    border-radius: 10px;  
+    padding: 10px;  
+    position: relative; 
+
+}

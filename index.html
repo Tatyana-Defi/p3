@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Simple Statistical Analysis</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+    <div class="container text-center">
+
+        <img src="pinkbutterflies.png" alt="Pink Butterfly" style="width: 350px;">
+
+
+
+        <h1>Simple Statistical Analysis</h1>
+
+        <div class="mt-3">
+            <input type="number" id="num1" class="form-control d-inline-block mx-2" placeholder="Enter first number">
+            <input type="number" id="num2" class="form-control d-inline-block mx-2" placeholder="Enter second number">
+            <input type="number" id="num3" class="form-control d-inline-block mx-2" placeholder="Enter third number">
+            <button onclick="calculateStats()" class="btn btn-primary mt-3">Calculate</button>
+        </div>
+
+        <div class="container text-center results-section">
+            <h2>Results</h2>
+        </div>
+
+        <div id="results" class="mt-5">
+            <p><strong>Max:</strong> <span id="maxResult">-</span></p>
+            <p><strong>Min:</strong> <span id="minResult">-</span></p>
+            <p><strong>Mean:</strong> <span id="meanResult">-</span></p>
+            <p><strong>Median:</strong> <span id="medianResult">-</span></p>
+            <p><strong>Range:</strong> <span id="rangeResult">-</span></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1do4A+gf8k5l7l4lMz4i3WDQn1Z7y/JonasIUNsobU+Kk8dD jiXuyPkz" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.min.js" integrity="sha384-jt6AYsFgpo+WRD5tzIZHiON3l6kaVMaqtu6F5In06l9y4l6F4l4xID3z+Uh8n8fsG" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+<br>
+<footer><strong>Tatyana Dorcinvil </strong></footer>
+</html>
