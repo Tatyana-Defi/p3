@@ -32,5 +32,6 @@ Contributions to enhance the application or add new features are welcome. Please
 
 Project from Course COP3813 Project 3
 
-
-![Space Exploration Tracker](https://i.imgur.com/vTf8Akf.gif)
+<div>
+<img src="https://i.imgur.com/vTf8Akf.gif" width="600">
+</div>
